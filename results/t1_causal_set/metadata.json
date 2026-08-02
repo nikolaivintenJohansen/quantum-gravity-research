@@ -1,0 +1,42 @@
+{
+  "assumptions": [
+    "Minkowski 1+1D",
+    "uniform sprinkling conditional on element count N",
+    "strict causal order in null coordinates",
+    "no dynamics or matter fields"
+  ],
+  "checks": {
+    "all_dimensions_finite": true,
+    "boost_invariant_relation": true,
+    "irreflexive": true,
+    "large_n_mean_dimension_within_0_2": true,
+    "mean_ordering_within_0_02": true,
+    "transitive": true
+  },
+  "claim": "Recover 1+1D ordering statistics from a conditioned Poisson sprinkling",
+  "command": "MPLCONFIGDIR=python-code/.mplconfig python-code/.venv/bin/python python-code/toy_models/t1_causal_set.py",
+  "expected_ordering_fraction_d2": 0.5,
+  "model_id": "T1",
+  "parameters": {
+    "half_extent": 1.0,
+    "repeats": 100,
+    "seed": 20260802,
+    "sizes": [
+      64,
+      128,
+      256,
+      512,
+      1024
+    ]
+  },
+  "random_seed": 20260802,
+  "randomness_used": true,
+  "units": "coordinates are dimensionless in units of the diamond half-extent",
+  "versions": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  }
+}

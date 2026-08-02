@@ -1,0 +1,19 @@
+{
+  "action_gradient_residual": [0, 0, 0],
+  "action_kernel": [
+    [-2, 2, -4],
+    [2, -2, 2],
+    [-4, 2, -2]
+  ],
+  "action_kernel_is_symmetric": true,
+  "advanced_upper_triangle_norm_squared": 24,
+  "randomness_used": false,
+  "retarded_is_symmetric": false,
+  "retarded_operator": [
+    [-2, 0, 0],
+    [4, -2, 0],
+    [-8, 4, -2]
+  ],
+  "source": "wolfram-notebooks/H1_causal_scalar_audit.wl",
+  "wolfram_version": "15.0.0 for Linux x86 (64-bit) (May 6, 2026)"
+}

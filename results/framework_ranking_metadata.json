@@ -1,0 +1,37 @@
+{
+  "command": "MPLCONFIGDIR=python-code/.mplconfig python-code/.venv/bin/python python-code/rank_frameworks.py",
+  "criteria": [
+    "quantum_consistency",
+    "gr_recovery",
+    "conservation_causality",
+    "mathematical_clarity",
+    "testability",
+    "computational_feasibility"
+  ],
+  "inputs": [
+    "/Users/nikolaivintenjohansen/Documents/Codex/2026-08-02/create-a-new-local-research-workspace/quantum-gravity-research/data/framework_scores.csv",
+    "/Users/nikolaivintenjohansen/Documents/Codex/2026-08-02/create-a-new-local-research-workspace/quantum-gravity-research/data/ranking_weights.csv"
+  ],
+  "randomness_used": false,
+  "units": "dimensionless ordinal scores on [0, 5]",
+  "versions": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "python": "3.12.13"
+  },
+  "weight_sums": {
+    "baseline": 1.0,
+    "test_and_compute": 1.0
+  },
+  "winners": {
+    "baseline": {
+      "overall": "gravity_eft",
+      "uv_candidate": "string_holography"
+    },
+    "test_and_compute": {
+      "overall": "gravity_eft",
+      "uv_candidate": "cdt"
+    }
+  }
+}

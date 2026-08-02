@@ -1,0 +1,7 @@
+size,density_inverse_length_squared,retarded_asymmetry_frobenius,action_vs_retarded_frobenius,advanced_support_frobenius,relabeling_covariance_residual,strictly_retarded_operator,action_kernel_symmetric
+3,1,13.8564064606,6.92820323028,4.89897948557,0,True,True
+4,1,19.5959179423,9.79795897113,6.92820323028,0,True,True
+5,1,24,12,8.48528137424,0,True,True
+6,1,27.7128129211,13.8564064606,9.79795897113,0,True,True
+8,1,33.941125497,16.9705627485,12,0,True,True
+10,1,39.1918358845,19.5959179423,13.8564064606,0,True,True

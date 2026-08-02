@@ -1,0 +1,17 @@
+scenario,framework_id,framework,is_uv_candidate,weighted_score,overall_rank,uv_candidate_rank
+baseline,gravity_eft,Gravitational effective field theory,False,4.500,1,
+baseline,string_holography,String theory / gauge-gravity duality,True,3.450,2,1
+baseline,cdt,Causal dynamical triangulations,True,3.350,3,2
+baseline,asymptotic_safety,Asymptotic safety,True,3.250,4,3
+baseline,causal_sets,Causal sets,True,3.100,5,4
+baseline,tensor_networks,Tensor-network / entanglement geometry,True,3.050,6,5
+baseline,loop_spin_foams,Loop quantum gravity / spin foams,True,2.900,7,6
+baseline,emergent_gravity,Emergent / induced / thermodynamic gravity,True,2.150,8,7
+test_and_compute,gravity_eft,Gravitational effective field theory,False,4.100,1,
+test_and_compute,cdt,Causal dynamical triangulations,True,3.200,2,1
+test_and_compute,asymptotic_safety,Asymptotic safety,True,3.150,3,2
+test_and_compute,causal_sets,Causal sets,True,3.050,4,3
+test_and_compute,tensor_networks,Tensor-network / entanglement geometry,True,3.000,5,4
+test_and_compute,string_holography,String theory / gauge-gravity duality,True,2.800,6,5
+test_and_compute,loop_spin_foams,Loop quantum gravity / spin foams,True,2.600,7,6
+test_and_compute,emergent_gravity,Emergent / induced / thermodynamic gravity,True,2.250,8,7

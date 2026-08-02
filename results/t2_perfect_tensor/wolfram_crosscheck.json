@@ -1,0 +1,9 @@
+{
+  "code_projector_rank": 2,
+  "generators_mutually_commute": true,
+  "generators_square_to_identity": true,
+  "logical_zero_projector_rank": 1,
+  "randomness_used": false,
+  "source": "wolfram-notebooks/T2_perfect_tensor_checks.wl",
+  "wolfram_version": "15.0.0 for Linux x86 (64-bit) (May 6, 2026)"
+}

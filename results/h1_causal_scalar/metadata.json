@@ -1,0 +1,75 @@
+{
+  "checks": {
+    "engineering_dimension_B_is_inverse_length_squared": true,
+    "order_relabeling_covariance": true,
+    "real_action_kernel_symmetric": true,
+    "real_action_reproduces_retarded_equation": false,
+    "retarded_support": true,
+    "symmetrization_avoids_advanced_support": false
+  },
+  "command": "MPLCONFIGDIR=python-code/.mplconfig python-code/.venv/bin/python python-code/toy_models/h1_causal_scalar_audit.py",
+  "conclusion": "rejected: a naive real quadratic action cannot retain the strictly retarded kernel",
+  "expected_failures": {
+    "real_action_reproduces_retarded_equation": false,
+    "symmetrization_avoids_advanced_support": false
+  },
+  "hybrid_id": "H1",
+  "layer_coefficients_2d": {
+    "0": 4.0,
+    "1": -8.0,
+    "2": 4.0
+  },
+  "parameters": {
+    "density": 1.0,
+    "sizes": [
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ]
+  },
+  "randomness_used": false,
+  "three_chain_action_kernel": [
+    [
+      -2.0,
+      2.0,
+      -4.0
+    ],
+    [
+      2.0,
+      -2.0,
+      2.0
+    ],
+    [
+      -4.0,
+      2.0,
+      -2.0
+    ]
+  ],
+  "three_chain_retarded_operator": [
+    [
+      -2.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      4.0,
+      -2.0,
+      -0.0
+    ],
+    [
+      -8.0,
+      4.0,
+      -2.0
+    ]
+  ],
+  "units": "natural units hbar=c=1; density rho has L^-2 and B has L^-2",
+  "versions": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "python": "3.12.13"
+  }
+}

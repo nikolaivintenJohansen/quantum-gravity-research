@@ -16,7 +16,7 @@ Checked: 2026-08-02T15:44:47-04:00 (America/Detroit)
 - Kernel: Wolfram Language 15.0.0 for Linux x86-64, dated May 6, 2026; `$SystemID` is `Linux-x86-64`.
 - Smoke test: `FullSimplify[D[x^3, x] - 3 x^2]` returned `0`; `Det[{{1,2},{3,4}}]` returned `-2`.
 - Saved source and result: [`wolfram-notebooks/00_environment_smoke.wl`](../wolfram-notebooks/00_environment_smoke.wl) and [`results/00_environment_wolfram.json`](../results/00_environment_wolfram.json).
-- Operational consequence: Wolfram checks must use the connected stateless kernel, so every evaluation must be self-contained. A local `.wl` source file will be saved for every material symbolic result. The label **Wolfram cross-check pending** is required only if that connected kernel becomes unavailable or a check cannot fit the stateless execution model.
+- Operational consequence: Wolfram checks must use the connected stateless kernel, so every evaluation must be self-contained. A local `.wl` source file will be saved for every material symbolic result. If that kernel becomes unavailable or a check cannot fit the stateless execution model, the relevant log must explicitly mark the cross-check as pending.
 
 ## Python
 

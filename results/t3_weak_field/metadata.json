@@ -1,0 +1,93 @@
+{
+  "assumptions": [
+    "metric signature (-,+,+,+)",
+    "g_00 = -(1 + 2 Phi/c^2)",
+    "nonrelativistic matter T_00 approximately rho c^2",
+    "static weak field and r much greater than Schwarzschild radius",
+    "linearized Fourier-mode perturbation for the Bianchi check"
+  ],
+  "bianchi_residuals": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "checks": {
+    "einstein_equation_dimensions_match": true,
+    "linearized_bianchi_identity": true,
+    "point_mass_flux_exact": true,
+    "poisson_coefficient_exact": true,
+    "poisson_dimensions_match": true,
+    "second_order_below_first_order": true,
+    "weak_field_parameter_monotone": true
+  },
+  "claim": "Linearized Einstein gravity recovers Poisson gravity and obeys the linearized Bianchi identity within an explicit weak-field domain",
+  "command": "MPLCONFIGDIR=python-code/.mplconfig python-code/.venv/bin/python python-code/toy_models/t3_weak_field.py",
+  "dimensions": {
+    "G": [
+      -1,
+      3,
+      -2
+    ],
+    "G_T00_over_c4": [
+      0,
+      -2,
+      0
+    ],
+    "G_times_rho": [
+      0,
+      0,
+      -2
+    ],
+    "Phi": [
+      0,
+      2,
+      -2
+    ],
+    "T00": [
+      1,
+      -1,
+      -2
+    ],
+    "basis": "(mass, length, time) exponents",
+    "einstein_rhs_is_inverse_length_squared": true,
+    "laplacian_Phi": [
+      0,
+      0,
+      -2
+    ],
+    "poisson_dimensions_match": true,
+    "rho": [
+      1,
+      -3,
+      0
+    ]
+  },
+  "model_id": "T3",
+  "parameters": {
+    "radius_over_schwarzschild_radius": [
+      10,
+      30,
+      100,
+      300,
+      1000,
+      10000,
+      1000000,
+      100000000
+    ]
+  },
+  "randomness_used": false,
+  "symbolic_results": {
+    "gauss_flux": "4*pi*G*M",
+    "point_mass_potential": "-G*M/r",
+    "poisson_solution": "4*pi*G*rho",
+    "radial_acceleration": "-G*M/r**2"
+  },
+  "units": "symbolic SI dimensions; sweep variables are dimensionless ratios",
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pandas": "3.0.5",
+    "python": "3.12.13",
+    "sympy": "1.14.0"
+  }
+}

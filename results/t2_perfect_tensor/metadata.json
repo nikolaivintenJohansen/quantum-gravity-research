@@ -1,0 +1,38 @@
+{
+  "assumptions": [
+    "exact finite-dimensional qubits",
+    "pure states and noiseless linear algebra",
+    "five-qubit stabilizer code",
+    "static kinematics only; no spacetime dynamics"
+  ],
+  "checks": {
+    "baseline_erasure_kl_residual_below_1e_12": true,
+    "baseline_isometry_residual_below_1e_12": true,
+    "baseline_perfect_tensor_entropy_residual_below_1e_12": true,
+    "baseline_stabilizer_residual_below_1e_12": true,
+    "perturbation_breaks_erasure_correction": true,
+    "perturbation_breaks_unweighted_mincut_entropy": true,
+    "perturbed_isometries_preserved_below_1e_12": true
+  },
+  "claim": "The five-qubit-code purification is a six-qubit perfect tensor, and generic isometric perturbations break its code/min-cut properties",
+  "command": "MPLCONFIGDIR=python-code/.mplconfig python-code/.venv/bin/python python-code/toy_models/t2_perfect_tensor.py",
+  "model_id": "T2",
+  "parameters": {
+    "epsilons_radians": [
+      0.0,
+      0.01,
+      0.03,
+      0.1,
+      0.2,
+      0.35
+    ]
+  },
+  "randomness_used": false,
+  "units": "entropies in bits; perturbation angle in radians; all other quantities dimensionless",
+  "versions": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "python": "3.12.13"
+  }
+}

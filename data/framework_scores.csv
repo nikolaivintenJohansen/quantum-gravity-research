@@ -1,0 +1,9 @@
+framework_id,framework,is_uv_candidate,quantum_consistency,gr_recovery,conservation_causality,mathematical_clarity,testability,computational_feasibility
+causal_sets,Causal sets,true,3,2,4,4,2,4
+loop_spin_foams,Loop quantum gravity / spin foams,true,4,2,3,4,1,3
+cdt,Causal dynamical triangulations,true,3,3,4,4,2,4
+tensor_networks,Tensor-network / entanglement geometry,true,4,2,2,4,1,5
+asymptotic_safety,Asymptotic safety,true,4,3,3,3,2,4
+string_holography,String theory / gauge-gravity duality,true,5,4,4,3,1,2
+emergent_gravity,Emergent / induced / thermodynamic gravity,true,2,2,2,2,2,3
+gravity_eft,Gravitational effective field theory,false,4,5,5,5,2,5

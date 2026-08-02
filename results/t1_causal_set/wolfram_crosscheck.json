@@ -1,0 +1,21 @@
+{
+  "dimension_grid": [
+    [1, 1.0],
+    [2, 0.5],
+    [3, 0.22857142857142857],
+    [4, 0.1],
+    [5, 0.04262404262404262],
+    [6, 0.017857142857142856],
+    [7, 0.007389926894570857],
+    [8, 0.0030303030303030303],
+    [9, 0.001233796490224004],
+    [10, 0.0004995004995004995]
+  ],
+  "inverse_at_half": 2.0,
+  "monotone_on_integer_grid": true,
+  "ordering_fraction_d2": "1/2",
+  "ordering_fraction_d4": "1/10",
+  "randomness_used": false,
+  "source": "wolfram-notebooks/T1_causal_set_checks.wl",
+  "wolfram_version": "15.0.0 for Linux x86 (64-bit) (May 6, 2026)"
+}
