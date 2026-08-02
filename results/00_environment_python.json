@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "numpy_determinant": -2,
+    "sympy_derivative_residual": "0"
+  },
+  "implementation": "CPython",
+  "packages": {
+    "matplotlib": "3.11.1",
+    "networkx": "3.6.1",
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "pytest": "9.1.1",
+    "scipy": "1.18.0",
+    "sympy": "1.14.0"
+  },
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "python": "3.12.13",
+  "randomness_used": false
+}

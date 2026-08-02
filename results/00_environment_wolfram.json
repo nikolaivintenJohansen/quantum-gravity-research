@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "matrix_determinant": -2,
+    "symbolic_derivative_residual": 0
+  },
+  "kernel": {
+    "system_id": "Linux-x86-64",
+    "version": "15.0.0 for Linux x86 (64-bit) (May 6, 2026)",
+    "version_number": 15.0
+  },
+  "randomness_used": false,
+  "source": "wolfram-notebooks/00_environment_smoke.wl",
+  "transport": "connected stateless Wolfram MCP kernel"
+}
